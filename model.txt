@@ -1,0 +1,14 @@
+## 🧠 Model
+
+The regression formula used is:
+
+```
+Yᵉ = α + τ·Wᵉ + β·Xᵉ + εᵉ
+```
+
+Where:
+- **Yᵉ**: Engagement Score (observed outcome)
+- **Wᵉ**: Treatment indicator (1 = participated, 0 = did not)
+- **Xᵉ**: Sustainability Spending ($1,000s)
+- **α, τ, β**: Parameters to be estimated
+- **τ**: Interpreted as the **Average Treatment Effect (ATE)**
