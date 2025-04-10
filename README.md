@@ -92,3 +92,12 @@ output.txt
 .env
 *.log
 ```
+## 🔍 Component Explanations
+
+- **`app.py`** defines the core logic of the application: it loads input JSON data, fits a linear regression model to estimate the Average Treatment Effect (ATE), and returns the results via a Flask API.
+
+- **`Dockerfile`** creates a reproducible environment for running the application, ensuring all dependencies and configurations are consistent across systems without needing to install anything locally.
+
+- **Containerization** with Docker improves portability and reproducibility by packaging the application and its dependencies into a single unit that runs identically on any machine or cloud environment.
+
+---
